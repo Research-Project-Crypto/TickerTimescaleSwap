@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "Linux Env",
+            "includePath": [
+                "src/",
+                "vendor/csv-parser/"
+            ],
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
