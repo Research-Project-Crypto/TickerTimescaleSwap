@@ -41,6 +41,13 @@ make config=release
 
 ## Using the application
 
+### Changing time rescale ratio
+
+By default the time rescale is 1:60, currently this variable can't be modified through a command argument, so you'll have to edit the code and recompile.
+To use a different ratio you need pass an argument to the start method of the `timescale_swap` class in main.cpp.
+
+[Link to the specific line](https://github.com/Research-Project-Crypto/TickerTimescaleSwap/blob/master/src/main.cpp#L51)
+
 ### With arguments
 
 |Position|Argument|
